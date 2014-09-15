@@ -74,7 +74,7 @@ public:
 
 			std::string subdomain = _subdomains[(int)ofRandom(0, _subdomains.size())];
 
-			url << "http://"<< subdomain << "tile.openstreetmap.org/";
+			url << "http://"<< "a.tile.stamen.com/toner-lite/";
             url << (int)coordinate.getZoom() << "/" << (int)coordinate.getColumn();
             url << "/" << (int)coordinate.getRow() << ".png";
 
