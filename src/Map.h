@@ -30,7 +30,6 @@
 #include <set>
 #include <map>
 #include "ofMain.h"
-#include "ofxTween.h"
 #include "BaseMapProvider.h"
 #include "GeoLocation.h"
 #include "TileCoordinate.h"

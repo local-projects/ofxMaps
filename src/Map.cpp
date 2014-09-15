@@ -316,13 +316,13 @@ void Map::draw()
                        tileSize.x,
                        tileSize.y);
 
-            ofEnableAlphaBlending();
-            ofNoFill();
-            ofSetColor(255,0,0,50);
-            ofRect(tx,
-                   ty,
-                   tileSize.x,
-                   tileSize.y);
+//            ofEnableAlphaBlending();
+//            ofNoFill();
+//            ofSetColor(255,0,0,50);
+//            ofRect(tx,
+//                   ty,
+//                   tileSize.x,
+//                   tileSize.y);
 
             ofPopStyle();
 
