@@ -409,7 +409,9 @@ void Map::mousePressed(ofMouseEventArgs& evt)
 void Map::mouseReleased(ofMouseEventArgs& evt)
 {
 }
-
+void Map::mouseScrolled(ofMouseEventArgs& evt)
+{
+}
 
 int Map::getZoom() const
 {

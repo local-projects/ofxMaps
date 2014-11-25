@@ -53,6 +53,7 @@ public:
 	void mouseDragged(ofMouseEventArgs& evt);
 	void mousePressed(ofMouseEventArgs& evt);
 	void mouseReleased(ofMouseEventArgs& evt);
+	void mouseScrolled(ofMouseEventArgs& evt);
 	
 	int getZoom() const;
 	void setZoom(int zoom);
